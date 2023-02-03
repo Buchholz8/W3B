@@ -1,0 +1,19 @@
+main {
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    text-align: center;
+}
+img {
+    max-width: 50%;
+}
+header {
+    display: grid;
+align-items: flex-start;
+}
+nav {
+    justify-self: end;
+}
